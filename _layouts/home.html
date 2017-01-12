@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="hero">
+
+    <h1>INZITE Media Wordpress Docs</h1>
+
+  </div>
+
+  <div class="welcome">
+    <h2>Sådan kommer du igang</h2>
+    <p>Velkommen til Inzite Medias guide til hjemmesideejere og administratorere. Her kan du finde vejledning og hjælp til daglig vedligehold af din Wordpress side fra Inzite Media.</p>
+
+    <a class="btn" href="/docs/">Læs mere</a>
+  </div>
+
+  {% assign pages = site.pages | sort:"title"  %}
+
+  <div class="frontpage-sections">
+    <div class="section">
+      <img src="{{ site.baseurl }}/assets/new.svg" alt="">
+      <a class="section-header" href="/docs/opret-indhold/">Opret nyt indhold</a>
+      <ul>
+        {% for p in pages %}
+          {% if p.permalink contains '/docs/opret-indhold/' %}
+            <li>
+              <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="section">
+      <img src="{{ site.baseurl }}/assets/edit.svg" alt="">
+      <a class="section-header" href="/docs/rediger-indhold/">Rediger eksisterende indhold</a>
+      <ul>
+        {% for p in pages %}
+          {% if p.permalink contains '/docs/rediger-indhold/' %}
+            <li>
+              <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="section">
+      <img src="{{ site.baseurl }}/assets/tools.svg" alt="">
+      <a class="section-header" href="/docs/workflows/">Øvrige funktioner</a>
+      <ul>
+        {% for p in pages %}
+          {% if p.permalink contains '/docs/workflows/' %}
+            <li>
+              <a href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+</div>

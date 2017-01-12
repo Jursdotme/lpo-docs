@@ -1,0 +1,54 @@
+<header class="page-header">
+
+	<div class="main-header">
+		{% if site.brand == 'inzite' %}
+			<div class="logo">
+				<a class="site-title" href="{{ "/" | relative_url}}"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 484 100" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><g id="full_logo"><g id="inite"><rect x="0" y="0" width="20.446" height="100" style="fill:#fff;"/><path d="M35.275,0l20.317,0l62.424,32.63l0,-32.63l20.316,0l0,100l-20.316,0l0,-45.873l-62.424,-32.437l0,78.31l-20.317,0l0,-100l0,0Z" style="fill:#fff;fill-rule:nonzero;"/><rect x="260.568" y="0" width="20.446" height="71.648" style="fill:#fff;"/><path d="M328.345,17.787l-36.98,0l0,-17.787l94.243,0l0,17.787l-36.946,0l0,53.861l-20.317,0l0,-53.861l0,0Z" style="fill:#fff;fill-rule:nonzero;"/><path d="M396.37,0l85.304,0l0,17.787l-64.988,0l0,19.961l57.553,0l0,16.7l-57.553,0l0,27.83l66.333,0l0,17.722l-86.649,0l0,-100l0,0Z" style="fill:#fff;fill-rule:nonzero;"/></g><g id="teh_z"><path d="M146.304,100l65.115,-82.724l-60.181,0l0,-17.276l97.994,0l-66.076,82.726l202.452,0l0,17.274l-239.304,0Z" style="fill:#ce2922;fill-rule:nonzero;"/></g></g></svg></a>
+			</div>
+		{% else %}
+			<div class="logo lpo">
+				<img src="http://lpo.dk.linux19.curanetserver.dk/wp-content/uploads/2016/08/green-white-green-1.png" alt="">
+			</div>
+		{% endif %}
+		<nav class="header-nav">
+			<ul>
+				<li><a href="/">Hjem</a></li>
+				<li><a href="/docs/">Artikler</a></li>
+				{% for page in site.pages %}
+					{% if page.permalink contains 'docs' %}
+
+					{% elsif page.url contains '.xml' %}
+					{% elsif page.url contains '.css' %}
+					{% elsif page.url == "/" %}
+					{% elsif page.url == "/kontakt/" %}
+
+					{% else %}
+						<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+					{% endif %}
+
+				{% endfor %}
+				<li><a href="/kontakt/">Kontakt</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="page-subheader">
+		<div class="page-title">
+			<span>Documentation</span>
+		</div>
+
+			<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+			 <a href="{{ site.url }}{{ site.baseurl }}">{{ site.data.language.breadcrumb_start }}</a>
+			 {% assign crumbs = page.url | split: '/' %}
+			   {% for crumb in crumbs offset: 1 %}
+			    {% if forloop.last %}
+			        <a class="current">{{ page.title }}</a>
+			    {% else %}
+			        <a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a> &rarr;
+			    {% endif %}
+			  {% endfor %}
+			</nav>
+
+	</div>
+
+</header>

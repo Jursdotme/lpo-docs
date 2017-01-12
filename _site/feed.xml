@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://brugerguide.inzite.dk/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://brugerguide.inzite.dk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://brugerguide.inzite.dk/" rel="alternate" type="text/html" /><updated>2017-01-11T16:05:38+01:00</updated><id>http://brugerguide.inzite.dk//</id><title type="html">Inzite Docs</title><subtitle>Disse guides er lavet efter nyeste software ved skrivende stund. Da vores software aktivt udvikles er der derfor risiko for at enkelte dele af denne guide ikke er 100 procent up-to-date. Finder du en fejl eller andet som tilsyneladende ikke stemmer over ens med hvad denne guide forsøger at leve op til er du meget velkommen til at kontakte os.
+</subtitle><entry><title type="html">Skriv ny side eller rette</title><link href="http://brugerguide.inzite.dk/guide/2015/03/12/oprette-ny-side.html" rel="alternate" type="text/html" title="Skriv ny side eller rette" /><published>2015-03-12T16:16:08+01:00</published><updated>2015-03-12T16:16:08+01:00</updated><id>http://brugerguide.inzite.dk/guide/2015/03/12/oprette-ny-side</id><content type="html" xml:base="http://brugerguide.inzite.dk/guide/2015/03/12/oprette-ny-side.html">&lt;p&gt;I Wordpress er sider mere traditionelt indhold på din hjemmeside - i modsætning til blogindlæg, der ofte er en slags nyheder. En side er som regel statisk og med mere langtidsholdbart indhold.&lt;/p&gt;
+
+&lt;p&gt;##Rette en side
+Du kommer til sider ved at vælge punktet i menuen til venstre. Det giver en oversigt med de eksisterende sider. Klik på en overskrift for at åbne siden til redigering. Ikonet yderst til højre på værktøjslinjen åbner en linje med flere funktioner.&lt;/p&gt;
+
+&lt;p&gt;Klik på knappen Opdater i højre side, når du har rettet færdig. Vil du fjerne en side, skal den flyttes til papirkurven med linket ved siden af.&lt;/p&gt;
+
+&lt;h2 id=&quot;oprette-en-ny-side&quot;&gt;Oprette en ny side&lt;/h2&gt;
+&lt;p&gt;Vil du lave en helt ny side, så klik på Tilføj ny i menuen eller øverst på siden. På den nye side skriver du overskriften i det øverste felt og selve teksten i vinduet nedenunder.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ny-side-wpmanual-pile.png&quot; alt=&quot;Widget Attributes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Har du på forhånd har skrevet en tekst i Word eller lign., kan du få mange unødvendige koder med, når du kopierer den ind. Brug derfor en af Indsæt-funktionerne i værktøjs-linjen. Eller vælg fanebladet Tekst i stedet for Visuel. Klip teksten ind her og gå tilbage til Visuel bagefter for at arbejde videre.&lt;/p&gt;
+
+&lt;p&gt;Vil du lave et link, så markér teksten og klik på kæde-ikonet i værktøjslinjen. Du kan indsætte billeder eller linke til pdf’er med knappen ovenover, Tilføj medier.&lt;/p&gt;
+
+&lt;p&gt;Når du er færdig med siden, lægger du den på nettet med knappen Udgiv i højre side. Herefter vil den blå knap skifte navn til Opdater.&lt;/p&gt;</content><category term="guide" /><summary type="html">I Wordpress er sider mere traditionelt indhold på din hjemmeside - i modsætning til blogindlæg, der ofte er en slags nyheder. En side er som regel statisk og med mere langtidsholdbart indhold.
+
+##Rette en side
+Du kommer til sider ved at vælge punktet i menuen til venstre. Det giver en oversigt med de eksisterende sider. Klik på en overskrift for at åbne siden til redigering. Ikonet yderst til højre på værktøjslinjen åbner en linje med flere funktioner.
+
+Klik på knappen Opdater i højre side, når du har rettet færdig. Vil du fjerne en side, skal den flyttes til papirkurven med linket ved siden af.
+
+Oprette en ny side
+Vil du lave en helt ny side, så klik på Tilføj ny i menuen eller øverst på siden. På den nye side skriver du overskriften i det øverste felt og selve teksten i vinduet nedenunder.
+
+
+
+Har du på forhånd har skrevet en tekst i Word eller lign., kan du få mange unødvendige koder med, når du kopierer den ind. Brug derfor en af Indsæt-funktionerne i værktøjs-linjen. Eller vælg fanebladet Tekst i stedet for Visuel. Klip teksten ind her og gå tilbage til Visuel bagefter for at arbejde videre.
+
+Vil du lave et link, så markér teksten og klik på kæde-ikonet i værktøjslinjen. Du kan indsætte billeder eller linke til pdf’er med knappen ovenover, Tilføj medier.
+
+Når du er færdig med siden, lægger du den på nettet med knappen Udgiv i højre side. Herefter vil den blå knap skifte navn til Opdater.</summary></entry><entry><title type="html">Rediger brugerprofil</title><link href="http://brugerguide.inzite.dk/guide/2015/03/12/Rediger-brugerprofil.html" rel="alternate" type="text/html" title="Rediger brugerprofil" /><published>2015-03-12T16:16:08+01:00</published><updated>2015-03-12T16:16:08+01:00</updated><id>http://brugerguide.inzite.dk/guide/2015/03/12/Rediger-brugerprofil</id><content type="html" xml:base="http://brugerguide.inzite.dk/guide/2015/03/12/Rediger-brugerprofil.html">&lt;p&gt;Du kan redigere din egen brugerprofil i Wordpress, men du skal være administrator for at oprette nye brugere eller rette i andres profiler.&lt;/p&gt;
+
+&lt;p&gt;I menuen vælger du først Brugere og herefter brugerprofilen. Nu får du en oversigt med lidt flere informationer end ved oprettelsen.&lt;/p&gt;
+
+&lt;p&gt;Det er mest relevant at se på Rolle, Vis Navn og Kodeord. AIM, Yahoo og Jabber behøver du ikke udfylde.&lt;/p&gt;
+
+&lt;p&gt;&quot;”Rolle – tilladelser
+Brugerens rolle bestemmer, hvad brugerne kan på hjemmesiden. Der er seks niveauer:&lt;/p&gt;
+
+&lt;p&gt;• Administrator, højeste niveau. Adgang til at ændre alt, også andres brugerprofiler.
+• Redaktør. Kan skrive og udgive indlæg og sider, også for andre
+• Forfatter. Kan skrive og udgive sine egne ting.
+• Bidragyder. Skrive, men ikke udgive.
+• Abonnent, laveste niveau. Læseadgang til evt. lukkede dele af hjemmesiden.
+Rollen kan ændres efter behov af en administrator.&lt;/p&gt;
+
+&lt;p&gt;For abonnenter kan det være en god ide ikke at vise værktøjslinjen. Den giver alligevel ikke adgang til ret meget.&lt;/p&gt;
+
+&lt;p&gt;##Vis navn
+Dit brugernavn ligger fast, men du behøver ikke bruge det over for andre. Har du skrevet Fornavn og Efternavn, kan du vælge dem under Vis navn offentligt som… Det bruges fx sammen med de indlæg, du skriver.&lt;/p&gt;
+
+&lt;p&gt;##Kodeord
+Du kan ikke se kodeordet. Men du kan indtaste et nyt nederst på siden. Det skal gøres to gange for en sikkerheds skyld.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/rediger-bruger.png&quot; alt=&quot;Widget Attributes&quot; /&gt;&lt;/p&gt;</content><category term="guide" /><summary type="html">Du kan redigere din egen brugerprofil i Wordpress, men du skal være administrator for at oprette nye brugere eller rette i andres profiler.
+
+I menuen vælger du først Brugere og herefter brugerprofilen. Nu får du en oversigt med lidt flere informationer end ved oprettelsen.
+
+Det er mest relevant at se på Rolle, Vis Navn og Kodeord. AIM, Yahoo og Jabber behøver du ikke udfylde.
+
+&quot;”Rolle – tilladelser
+Brugerens rolle bestemmer, hvad brugerne kan på hjemmesiden. Der er seks niveauer:
+
+• Administrator, højeste niveau. Adgang til at ændre alt, også andres brugerprofiler.
+• Redaktør. Kan skrive og udgive indlæg og sider, også for andre
+• Forfatter. Kan skrive og udgive sine egne ting.
+• Bidragyder. Skrive, men ikke udgive.
+• Abonnent, laveste niveau. Læseadgang til evt. lukkede dele af hjemmesiden.
+Rollen kan ændres efter behov af en administrator.
+
+For abonnenter kan det være en god ide ikke at vise værktøjslinjen. Den giver alligevel ikke adgang til ret meget.
+
+##Vis navn
+Dit brugernavn ligger fast, men du behøver ikke bruge det over for andre. Har du skrevet Fornavn og Efternavn, kan du vælge dem under Vis navn offentligt som… Det bruges fx sammen med de indlæg, du skriver.
+
+##Kodeord
+Du kan ikke se kodeordet. Men du kan indtaste et nyt nederst på siden. Det skal gøres to gange for en sikkerheds skyld.</summary></entry><entry><title type="html">Opret nye brugere</title><link href="http://brugerguide.inzite.dk/guide/2015/03/12/Opret-ny-bruger.html" rel="alternate" type="text/html" title="Opret nye brugere" /><published>2015-03-12T16:16:08+01:00</published><updated>2015-03-12T16:16:08+01:00</updated><id>http://brugerguide.inzite.dk/guide/2015/03/12/Opret-ny-bruger</id><content type="html" xml:base="http://brugerguide.inzite.dk/guide/2015/03/12/Opret-ny-bruger.html">&lt;p&gt;For at oprette en ny bruger vælger du Brugere i hovedmenuen og Tilføj Ny .&lt;/p&gt;
+
+&lt;p&gt;Skriv de nødvendige oplysninger i felterne. Du skal mindst skrive brugernavn, mailadresse og adgangskode.&lt;/p&gt;
+
+&lt;p&gt;Vær omhyggelig med brugernavnet, det skal man bruge til at logge ind. Du kan ikke skrive danske bogstaver og det kan ikke ændres senere.&lt;/p&gt;
+
+&lt;p&gt;Hvis du også udfylder Fornavn og Efternavn, kan du bruge dem på hjemmesiden i stedet for brugernavnet.&lt;/p&gt;
+
+&lt;p&gt;##Seks niveauer for brugere&lt;/p&gt;
+
+&lt;p&gt;Vælg en rolle, der bestemmer hvor meget, denne bruger skal have adgang til. Der er seks niveauer:&lt;/p&gt;
+
+&lt;p&gt;• Administrator, højeste niveau: Adgang til at redigere alt, også andres brugerprofiler.
+• Redaktør. Kan skrive og udgive indlæg og sider, også for andre.
+• Forfatter. Kan skrive og udgive egne ting.
+• Bidragyder. Kan skrive til hjemmesiden men ikke udgive selv.
+• Abonnent, laveste niveau. Tilføjer kun adgang til at læse evt. lukkede dele af hjemmesiden og redigere sin egen profil.&lt;/p&gt;
+
+&lt;p&gt;En brugers niveau er ikke fast, det kan ændres af en administrator. Fx. hvis andre vil skrive nyheder til bloggen.&lt;/p&gt;
+
+&lt;p&gt;Hvis brugerne selv må oprette en brugerprofil på hjemmesiden, kan du vælge den rolle, de automatisk får fra starten. Det gør du under Indstillinger i hovedmenuen.&lt;/p&gt;
+
+&lt;p&gt;Klik til sidst på knappen Tilføj ny bruger.&lt;/p&gt;
+
+&lt;p&gt;Nu kommer du tilbage til bruger-oversigten. Herfra kan du gå ind i den nye brugerprofil og eventuelt rette flere indstillinger.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ny-bruger.png&quot; alt=&quot;Widget Attributes&quot; /&gt;&lt;/p&gt;</content><category term="guide" /><summary type="html">For at oprette en ny bruger vælger du Brugere i hovedmenuen og Tilføj Ny .
+
+Skriv de nødvendige oplysninger i felterne. Du skal mindst skrive brugernavn, mailadresse og adgangskode.
+
+Vær omhyggelig med brugernavnet, det skal man bruge til at logge ind. Du kan ikke skrive danske bogstaver og det kan ikke ændres senere.
+
+Hvis du også udfylder Fornavn og Efternavn, kan du bruge dem på hjemmesiden i stedet for brugernavnet.
+
+##Seks niveauer for brugere
+
+Vælg en rolle, der bestemmer hvor meget, denne bruger skal have adgang til. Der er seks niveauer:
+
+• Administrator, højeste niveau: Adgang til at redigere alt, også andres brugerprofiler.
+• Redaktør. Kan skrive og udgive indlæg og sider, også for andre.
+• Forfatter. Kan skrive og udgive egne ting.
+• Bidragyder. Kan skrive til hjemmesiden men ikke udgive selv.
+• Abonnent, laveste niveau. Tilføjer kun adgang til at læse evt. lukkede dele af hjemmesiden og redigere sin egen profil.
+
+En brugers niveau er ikke fast, det kan ændres af en administrator. Fx. hvis andre vil skrive nyheder til bloggen.
+
+Hvis brugerne selv må oprette en brugerprofil på hjemmesiden, kan du vælge den rolle, de automatisk får fra starten. Det gør du under Indstillinger i hovedmenuen.
+
+Klik til sidst på knappen Tilføj ny bruger.
+
+Nu kommer du tilbage til bruger-oversigten. Herfra kan du gå ind i den nye brugerprofil og eventuelt rette flere indstillinger.</summary></entry><entry><title type="html">Række funktioner</title><link href="http://brugerguide.inzite.dk/ref/2015/03/12/rkke-funktioner.html" rel="alternate" type="text/html" title="Række funktioner" /><published>2015-03-12T16:05:36+01:00</published><updated>2015-03-12T16:05:36+01:00</updated><id>http://brugerguide.inzite.dk/ref/2015/03/12/rkke-funktioner</id><content type="html" xml:base="http://brugerguide.inzite.dk/ref/2015/03/12/rkke-funktioner.html">&lt;h2 id=&quot;full-height&quot;&gt;Full height&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;full-height-*-*-*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Definer højden på en række så den altid har samme højde som browser vinduet.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Første variabel&lt;/strong&gt; definerer hvor meget der skal trækkes fra højden(px). Dette bruges eksempelvis til at gøre plads til navigationen.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Anden variabel&lt;/strong&gt; definerer minimum højden på rækken.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Tredje variabel&lt;/strong&gt; definerer maximum højden på rækken.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Skal defineres på rækken.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;center-content&quot;&gt;Center content&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;center-content
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Centrer en rækkes indhold. Brug i forbindelse med &lt;code class=&quot;highlighter-rouge&quot;&gt;full-height-*-*-*&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Skal defineres på rækken.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;parallax&quot;&gt;Parallax&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;parallax
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Anvend en parallax effekt som simulerer 3 dimmensionalitet på baggrundsbillede. Denne effekt skal bruges i sammenhæng med et baggrundsbillede.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Skal defineres på rækken.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;transparent-baggrund-række&quot;&gt;Transparent baggrund (række)&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;background-*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Anvend baggrundsfarve og baggrundsbillede samtidig. Variabelen bestemmer baggrundsfarvens transperens fra 0 til 100%.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Skal defineres på rækken.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;match-højde&quot;&gt;Match højde&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;matchheight
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sætter alle kolonner i en række til samme højde. Brug i forbindelse med kolonner med baggrundsfarve eller baggrundsbillede.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Skal defineres på række.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hjørne-radius&quot;&gt;Hjørne radius&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;radius-*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Definer radius(px) på runde hjørner.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Skal defineres på kolonne.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;transparent-baggrund-kolonne&quot;&gt;Transparent baggrund (kolonne)&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;transparency-*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Anvend baggrundsfarve og baggrundsbillede samtidig. Variabelen bestemmer baggrundsfarvens transperens fra 0 til 100%.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Skal defineres på kolonne.&lt;/em&gt;&lt;/p&gt;</content><category term="ref" /><summary type="html">Full height</summary></entry></feed>
