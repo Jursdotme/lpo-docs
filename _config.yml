@@ -26,7 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 brand: lpo
-printfunction: false
+printfunction: true
 
 # Build settings
 markdown: kramdown
