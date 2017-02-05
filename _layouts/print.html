@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="overlay">
+      <div class="overlay-inner">
+        <h3>Print hele brugerguiden</h3>
+
+        <p>Du er ved at printe hele brugerguiden. Udprintet fylder guiden i omegnen af 60 sider.</p>
+
+        <a class="btn" href="javascript:window.print()">Print Brugerguiden</a>
+        <button type="button" onclick="history.back(-1)" class="back_button">&larr;</button>
+      </div>
+    </div>
+
+    <div class="cover-page">
+      <h1>{{ site.title }}</h1>
+      <p>Opdateret {{ site.time | date: "%d/%m - %Y" }}</p>
+    </div>
+
+    {% assign pages = site.pages | sort:"title"  %}
+
+    {% for p in pages %}
+      {% if p.permalink contains '/docs/' %}
+
+          <article class="guide">
+            <h1>{{ p.title }}</h1>
+
+            {{ p.content }}
+          </article>
+
+      {% endif %}
+    {% endfor %}
+
+  </body>
+
+</html>

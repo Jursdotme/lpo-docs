@@ -23,7 +23,7 @@ Hvis du klikker på denne fane åbnes Page Builder-brugerfladen.
 
 ### Værktøjslinjen
 
-<Span style = "line-height: 13px;"> Du kan bruge værktøjslinjen til at tilføje en widget, en ny række af kolonner eller genbruge et layout fra en eksisterende side </ span>.
+Du kan bruge værktøjslinjen til at tilføje en widget, en ny række af kolonner eller genbruge et layout fra en eksisterende side.
 
 ![Widget Attributes]({{ site.baseurl }}/assets/PB103.png)
 

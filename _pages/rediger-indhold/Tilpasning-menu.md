@@ -10,7 +10,7 @@ I midten ses de menupunkter, du har valgt. Du kan vælge at trække i et punkt o
 
 Trækker du det en anelse mod højre, bliver det til et underpunkt til menupunktet ovenover. Du kan altid trække et punkt til venstre igen for at gøre det til et selvstændigt menupunkt.
 
-![Widget Attributes]({{ site.baseurl }}/assets/menu-flyt.png)
+![Widget Attributes]({{ site.baseurl }}/assets/menu-flyt.jpg)
 
 ##Nye punkter i menuen
 Skal du bruge flere punkter, kan du tilføje dem fra venstre side. Der er tre typer:
@@ -28,4 +28,4 @@ Du kan slette et menupunkt ved at klikke på ”Fjern” nederst til venstre.
 
 Når du er tilfreds med menuen, klikker du på den blå knap i højre side: ”Gem menu”.
 
-![Widget Attributes]({{ site.baseurl }}/assets/menu-aaben.png)
+![Widget Attributes]({{ site.baseurl }}/assets/menu-aaben.jpg)

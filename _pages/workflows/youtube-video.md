@@ -3,7 +3,7 @@ layout: page
 title: Youtube Video
 permalink: /docs/workflows/youtube/
 ---
-Der er mange fordele forbundet med at have video på hjemmesiden og det er super let at indlejre dem på din Inzite Wordpress side.
+Der er mange fordele forbundet med at have video på hjemmesiden og det er super let at indlejre dem på din Wordpress side.
 
 Først skal du finde den video du ønsker at vise på din hjemmeside. Under afspilningsvindue finder du en `Del` knap med en pil. Når du klikke på denne får du et link som starter med `http://youtu.be/` eller noget lignende.
 

@@ -4,10 +4,8 @@ title: Hjælp
 permalink: /hjaelp/
 ---
 
-Dette er dokumentation og brugerguides til Wordpress baserede hjemmesider udarbejdet af [Inzite Media](http://inzite.dk).
+Dette er [Inzite Media’s](http://inzite.dk) brugerguide til redigering af hjemmesider lavet i Wordpress.
 
-Disse guides er lavet efter nyeste software ved skrivende stund. Da vores software aktivt udvikles er der derfor risiko for at enkelte dele af denne guide ikke er 100 procent up-to-date.
+Denne guide er lavet på baggrund af tidens nyeste software. Da denne software gradvist udvikles, vil der herske risiko for, at nogle dele af denne guide ikke er 100 procent up-to-date, når du tager den i brug. Under “["Begreber"](/begreber/)” i hovedmenuen, vil du finde en liste over begreber og udtryk, som er relevante i forhold til vedligeholdelsen af din hjemmeside.
 
-Under ["Begreber"](/begreber/) i hovemenuen vil vi prøve at holde en opdateret liste over begreber og udtryk som er relevante i forhold til daglig vedligehold af hjemmesiden.
-
-Finder du en fejl eller andet som tilsyneladende ikke stemmer over ens med hvad denne guide forsøger at leve op til er du meget velkommen til at [kontakte os](/kontakt/).
+Finder du et element i guiden, der ikke synes at stemme overens med den nyeste software, er du meget velkommen til at [kontakte os](/kontakt/) og gøre os opmærksomme på det.

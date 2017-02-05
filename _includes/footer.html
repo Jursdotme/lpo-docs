@@ -7,16 +7,9 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
+          {% if site.email %}
+          <li></li>
+          {% endif %}
         </ul>
       </div>
 
@@ -25,6 +18,12 @@
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.facebook_page %}
+          <li>
+            {% include icon-facebook.html username=site.facebook_page %}
           </li>
           {% endif %}
 
@@ -37,6 +36,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
+        <h3 class="description_header">{{ site.description_header | escape }}</h3>
         <p>{{ site.description | escape }}</p>
       </div>
     </div>
@@ -45,7 +45,25 @@
 
 </footer>
 
+<div class="popup hidden">
+
+  <div class="popup-inner">
+    <h3>Print</h3>
+
+    <p>Du kan vælge at printe enten denne side alene. Eller hele guiden på en gang.</p>
+
+    <p><strong>Bemærk:</strong> Den fulde guide fylder 60+ sider.</p>
+
+    <a class="btn" href="javascript:window.print()">Print kun denne side</a>
+    <a class="btn" href="/print/">Print hele guiden</a>
+
+    <a href="javascript:void(0);" class="close">&#215;</a>
+  </div>
+
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="{{ "/assets/scripts.js" | relative_url }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js" integrity="sha256-vFC/ScvnnuSbTui1byb/SHe8SUXBbyYLFIG6I1XJY0c=" crossorigin="anonymous"></script>
 
 <script type="text/javascript">

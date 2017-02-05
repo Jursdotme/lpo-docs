@@ -1,7 +1,7 @@
 {% assign cur_page_permalink = page.permalink %}
 {% assign pages = site.pages | sort:"title"  %}
 
-<ul>
+<ul class="subpage-nav">
   {% for p in pages %}
     {% if p.permalink != cur_page_permalink %}
       {% if p.permalink contains cur_page_permalink %}

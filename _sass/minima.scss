@@ -5,16 +5,23 @@ $brand-color: #ce2922;
 $base-font-color: #333;
 $header-height: 118px;
 
-// CUSTOM BRANDING
+$success-color: #5cb85c;
+$info-color:    #5bc0de;
+$warning-color: #f0ad4e;
+$danger-color:  #d9534f;
 
-$dark-gray: #374241;
-$brand-color: #00b300;
-$header-height: 133px;
+$dark-gray:     #374241;
+$brand-color:   #00b300;
 
 // Import partials.
-@import "minima/base", "minima/typography","minima/syntax-highlighting";
+@media screen {
+  @import "minima/base", "minima/typography","minima/syntax-highlighting";
+}
 
-// OVERRIDES
+@media print {
+  @import "minima/print";
+}
+
 .logo.lpo img {
     height: 40px;
     display: block;
